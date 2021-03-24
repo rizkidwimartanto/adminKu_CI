@@ -1,0 +1,19 @@
+<?php
+	$connect = mysqli_connect("localhost","root","","ruqyah_aswaja") or die("Tidak dapat terhubung");
+
+	$id = $_POST["id"];
+	$username = $_POST["username"];
+	$password = $_POST["password"];
+	
+	$sql = "UPDATE konsumen SET username='$username', password='$password' WHERE id='$id'";
+
+	$result = mysqli_query($connect, $sql);
+
+	if ($result) {
+		echo "Data Berhasil Diupdate";
+	}
+	else{
+		echo "Data Gagal Diupdate";
+	}
+	mysqli_close($connection);
+?>

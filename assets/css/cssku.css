@@ -1,0 +1,35 @@
+div.jumbotron p {
+    font-size: 18px;
+    color: #FF2D20;
+}
+
+div.carousel {
+    padding: 5px;
+}
+
+div.carousel img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 250px;
+}
+
+section.about p {
+    text-align: justify;
+}
+
+section.portfolio img {
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+}
+
+/* #btn_tambah{
+    position: absolute;
+}
+
+#cariData{
+    position: relative;
+    left: 130px;
+} */
+
